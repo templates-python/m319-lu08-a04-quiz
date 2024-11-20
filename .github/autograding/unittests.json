@@ -1,7 +1,31 @@
 [
   {
-    "name": "test",
-    "function": "test",
+    "name": "test_main_maximum_points",
+    "function": "test_main_maximum_points",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_main_minimum_points",
+    "function": "test_main_minimum_points",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_main_regular_case",
+    "function": "test_main_regular_case",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_main_exact_zero_points",
+    "function": "test_main_exact_zero_points",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_main_mixed_case",
+    "function": "test_main_mixed_case",
     "timeout": 10,
     "points": 1
   }
