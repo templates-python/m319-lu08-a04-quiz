@@ -3,7 +3,7 @@ def main():
     correct_answers = input('Wie viele richtige Antworten? ')
     incorrect_answers = input('Wie viele falsche Antworten? ')
 
-    total_points = correct_answers * 10 - incorrect_answers * 5
+    total_points = correct_answers * 10 - incorrect_answers - 5
 
     if total_points > 100
         total_points = 100
