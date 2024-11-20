@@ -5,13 +5,16 @@ def main():
 
     total_points = correct_answers * 10 - incorrect_answers - 5
 
-    if total_points > 100
-        total_points = 100
-    elif total_points < 0:
-        total_points = 0
+    if total_points < 100 and total_points > 0
+        total_points = total_points
+    else:
+        if total_points > 100 and total_points > 0:
+            total_points = 100
+        else:
+            total_points -= total_points
 
     print('Endpunktzahl: ' + total_points)
 
 
-if __name__ = '__main__':
+if __name__ == '_main_':
     main()
